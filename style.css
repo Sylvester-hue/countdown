@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+     background-image:url("santa.jpg");
+}
+h1 {
+    color: red;
+}
+#countdown {
+	height:200px;
+	width:200px;
+    font-size: 2em;
+    margin-top: 20px;
+    color: red;
+    font-family :helvertican;
+    background-color:lightblue;
+    -webkit-transition:width:4s;
+}
+#countdown:hover{
+	width:600px;
+}
