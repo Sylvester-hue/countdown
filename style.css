@@ -1,19 +1,24 @@
-body {
+body,html {
     font-family: Arial, sans-serif;
     background-color: purple;
     margin: 0;
-    padding:20px;
-    text-align: center;
+    padding:0;
+    //text-align: center;
      background-image:url("m1.jpg");
      background-repeat:no-repeat;
     background-size:cover;
-    align-content:center;
-   justify-content:auto;
+    align-items:center;
+   justify-content:center;
+    display:flex;
+    flex-direction:column;
+   position:auto;
+   height:100%;
+
     //background-position:center;
 }
 h1 {
     color:blue;
-    font-wight:bold;
+    font-width:bold;
 }
 #countdown {
 	align-content:center;
@@ -24,7 +29,7 @@ h1 {
     	margin-top: 20px;
     	color: red;
     	font-family :helvertican;
-	position:absolute;
+	position:relative;
     	background-color:lightblue;
   	-webkit-animation-name:myfirst;
     	-webkit-animation-duration:20s;
