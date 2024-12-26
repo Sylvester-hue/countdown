@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Dec 25, 2024 6:00:00").getTime();
+var countDownDate = new Date("Dec 31, 2024 11:59:59").getTime();
 
 // Update the countdown every 1 second
 var x = setInterval(function() {
@@ -22,7 +22,7 @@ var x = setInterval(function() {
     // If the countdown is over, write some text
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("countdown").innerHTML = "MERRY CHRISTMAS";
+        document.getElementById("countdown").innerHTML = "HAPPY NEW YEAR TO THE WORLD";
 	
     }
 }, 1000);

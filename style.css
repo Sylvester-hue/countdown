@@ -1,24 +1,39 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: purple;
     margin: 0;
-    padding: 20px;
+    padding:20px;
     text-align: center;
-     background-image:url("santa.jpg");
+     background-image:url("m1.jpg");
+     background-repeat:no-repeat;
+    background-size:cover;
+    align-content:center;
+   justify-content:auto;
+    //background-position:center;
 }
 h1 {
-    color: red;
+    color:blue;
+    font-wight:bold;
 }
 #countdown {
+	align-content:center;
+	border-radius:4px;
 	height:200px;
 	width:200px;
-    font-size: 2em;
-    margin-top: 20px;
-    color: red;
-    font-family :helvertican;
-    background-color:lightblue;
-    -webkit-transition:width:4s;
+   	font-size: 2em;
+    	margin-top: 20px;
+    	color: red;
+    	font-family :helvertican;
+	position:absolute;
+    	background-color:lightblue;
+  	-webkit-animation-name:myfirst;
+    	-webkit-animation-duration:20s;
+ 
 }
-#countdown:hover{
-	width:600px;
+@-webkit-keyframes myfirst
+{
+	0%{background:blue;}
+	20%{background:blue;}
+	40%{background:beige;}
+	80%{background:green;}
 }
