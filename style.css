@@ -1,10 +1,10 @@
-body,html {
+body,html{
     font-family: Arial, sans-serif;
     background-color: purple;
     margin: 0;
     padding:0;
     //text-align: center;
-     background-image:url("m1.jpg");
+     background-image:url("20251.png");
      background-repeat:no-repeat;
     background-size:cover;
     align-items:center;
@@ -30,9 +30,11 @@ h1 {
     	color: red;
     	font-family :helvertican;
 	position:relative;
-    	background-color:lightblue;
+    	background-color:transparent;
   	-webkit-animation-name:myfirst;
     	-webkit-animation-duration:20s;
+	font-family:helvertica,sans-sarif;
+	font-wight:bold;
  
 }
 @-webkit-keyframes myfirst
@@ -41,4 +43,8 @@ h1 {
 	20%{background:blue;}
 	40%{background:beige;}
 	80%{background:green;}
+}
+
+video{
+	border : solid blue 1px;
 }
